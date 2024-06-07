@@ -45,7 +45,7 @@ function calcularPromedioMateria(materia, divMateria) {
     const promedio = (nota1 * 0.3) + (nota2 * 0.3) + (nota3 * 0.4);
 
     const promedioSpan = document.createElement('span');
-    promedioSpan.textContent = `                  Promedio: ${promedio.toFixed(1)}`;
+    promedioSpan.textContent = `   Promedio: ${promedio.toFixed(1)}`;
     divMateria.appendChild(promedioSpan);
 }
 
